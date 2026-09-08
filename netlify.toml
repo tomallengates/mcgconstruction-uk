@@ -1,0 +1,16 @@
+# MCG Construction Group — mcgconstruction.uk
+# Static site, no build step. Netlify publishes this directory as-is.
+
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
