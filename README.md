@@ -18,7 +18,7 @@ Netlify serves this directory exactly as it is.
 
 ## Shared files
 - `css/site.css`  — all styles, used by every page.
-- `js/site.js`    — mobile menu, estimator, enquiry form.
+- `js/site.js`    — estimator, enquiry form.
 - `img/`          — photographs (Tom's own job photos) and `logo.png`.
 - `favicon.png`   — browser tab icon, from the MCG logo.
 - `robots.txt`    — allows indexing, points to the sitemap.
@@ -27,7 +27,7 @@ Netlify serves this directory exactly as it is.
 - `netlify.toml`  — Netlify config.
 
 ## How to change something
-Edit the page and redeploy. The header (logo, menu, phone) and the footer are
+Edit the page and redeploy. The header (logo, phone), the page bar under it and the footer are
 repeated in every page, so a change to either has to be made in all eight files.
 Reviews appear on both the home page and Our Work.
 Old one-page links such as `/#contact` are forwarded to the new pages by a

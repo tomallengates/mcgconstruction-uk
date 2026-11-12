@@ -1,11 +1,4 @@
 (function(){
-  var burger=document.getElementById('burger'),nav=document.getElementById('nav');
-  burger.addEventListener('click',function(){
-    var open=nav.classList.toggle('open');
-    burger.setAttribute('aria-expanded',open?'true':'false');
-  });
-  nav.addEventListener('click',function(e){if(e.target.tagName==='A')nav.classList.remove('open')});
-
   if(document.getElementById('estimate')){
   var RATE={
     stone:[240,420,'Stone slate'], slate:[145,230,'Natural slate'], plain:[120,190,'Plain tile'],
