@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roof Price Estimator | MCG Construction Group, Buxton</title>
+<meta name="description" content="Price your roof in about thirty seconds. Enter the footprint, pitch and covering for an indicative range including VAT. Written quotes are fixed, itemised and free.">
+<link rel="canonical" href="https://mcgconstruction.uk/estimate/">
+<meta name="theme-color" content="#1c3355">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MCG Construction Group">
+<meta property="og:title" content="Roof Price Estimator">
+<meta property="og:description" content="Price your roof in about thirty seconds. Enter the footprint, pitch and covering for an indicative range including VAT. Written quotes are fixed, itemised and free.">
+<meta property="og:url" content="https://mcgconstruction.uk/estimate/">
+<meta property="og:image" content="https://mcgconstruction.uk/img/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root{color-scheme:light dark}
+  html{-webkit-text-size-adjust:100%}
+  [hidden]{display:none!important}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <a class="brand" href="/">
+      <img src="/img/logo.png" alt="MCG Construction Group Ltd">
+      <span style="display:block">
+        <b>MCG Construction Group</b>
+        <span>Roofing &middot; Buxton &middot; Est. 2008</span>
+      </span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="/services/">Services</a>
+      <a href="/materials/">Materials</a>
+      <a href="/estimate/" aria-current="page">Estimate</a>
+      <a href="/our-work/">Our Work</a>
+      <a href="/surveys/">Surveys</a>
+      <a href="/areas/">Areas</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+    <div class="hdr-cta">
+      <a class="tel" href="tel:01298298928"><small>Call the office</small><b class="num">01298 298928</b></a>
+      <a class="btn btn-g btn-sm" href="/contact/">Free quote</a>
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section id="estimate" class="band" style="background:var(--ink)">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Instant guide price</p>
+      <h1 class="pg">Price your roof in about thirty seconds.</h1>
+      <p class="lede narrow">Give us the footprint of the building and the covering you are after. We will work the true roof area off the pitch and give you an honest range &mdash; the same one we would give you on the phone.</p>
+    </div>
+    <div class="est">
+      <div class="est-form">
+        <div class="fld">
+          <label>Property</label>
+          <div class="opts" id="o-prop">
+            <label class="opt"><input type="radio" name="prop" value="7,6"><span>Terrace</span></label>
+            <label class="opt"><input type="radio" name="prop" value="8.5,8" checked><span>Semi-detached</span></label>
+            <label class="opt"><input type="radio" name="prop" value="11,9"><span>Detached</span></label>
+            <label class="opt"><input type="radio" name="prop" value="14,7"><span>Barn / outbuilding</span></label>
+          </div>
+        </div>
+        <div class="fld">
+          <label>Covering</label>
+          <div class="opts" id="o-cov">
+            <label class="opt"><input type="radio" name="cov" value="slate" checked><span>Natural slate</span></label>
+            <label class="opt"><input type="radio" name="cov" value="stone"><span>Stone slate</span></label>
+            <label class="opt"><input type="radio" name="cov" value="plain"><span>Plain tile</span></label>
+            <label class="opt"><input type="radio" name="cov" value="inter"><span>Interlocking tile</span></label>
+            <label class="opt"><input type="radio" name="cov" value="grp"><span>GRP flat</span></label>
+            <label class="opt"><input type="radio" name="cov" value="epdm"><span>EPDM flat</span></label>
+            <label class="opt"><input type="radio" name="cov" value="lead"><span>Lead flat</span></label>
+            <label class="opt"><input type="radio" name="cov" value="felt"><span>Felt flat</span></label>
+          </div>
+        </div>
+        <div class="fld">
+          <label>Footprint at eaves</label>
+          <div class="dims">
+            <div class="dim"><label for="len">Length (m)</label><input id="len" type="number" min="2" max="60" step="0.5" value="8.5"></div>
+            <div class="dim"><label for="wid">Width (m)</label><input id="wid" type="number" min="2" max="30" step="0.5" value="8"></div>
+          </div>
+        </div>
+        <div class="fld" id="pitch-fld">
+          <div class="pitchrow"><label style="margin:0">Roof pitch</label><b id="pv" class="num">35&deg;</b></div>
+          <input class="slider" id="pitch" type="range" min="15" max="50" step="1" value="35">
+        </div>
+        <div class="fld">
+          <label>Include</label>
+          <div class="opts" id="o-ex">
+            <label class="opt"><input type="checkbox" value="scaf" checked><span>Scaffold</span></label>
+            <label class="opt"><input type="checkbox" value="chim"><span>Chimney re-lead</span></label>
+            <label class="opt"><input type="checkbox" value="velux"><span>2 &times; Velux</span></label>
+            <label class="opt"><input type="checkbox" value="line"><span>New roofline</span></label>
+            <label class="opt"><input type="checkbox" value="ins"><span>Insulation upgrade</span></label>
+          </div>
+        </div>
+      </div>
+      <div class="est-out">
+        <p class="eyebrow" style="margin-bottom:.2rem">Your guide price</p>
+        <p class="calc" id="calc"></p>
+        <div class="range">
+          <small>Indicative range, inc. VAT</small>
+          <b class="num" id="lo">&pound;0</b>
+        </div>
+        <div class="lines" id="lines"></div>
+        <p class="disclaim">A guide only. Every roof we price is measured on site &mdash; access, structure, existing timbers and the state of the stonework all move the number. The written quote is fixed, itemised and free.</p>
+        <a class="btn btn-g" href="/contact/" style="align-self:flex-start">Turn this into a real quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-in">
+      <div>
+        <img src="/img/logo.png" alt="MCG Construction Group Ltd">
+        <p>Family-run roofing and construction across Buxton, the High Peak and the Derbyshire Dales. Directly employed tradesmen, written guarantees, and a phone that gets answered.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services/">Full re-roofs</a></li><li><a href="/services/">Flat roofing</a></li>
+          <li><a href="/services/">Leadwork</a></li><li><a href="/services/">Chimneys</a></li>
+          <li><a href="/services/">Fascia &amp; guttering</a></li><li><a href="/services/">Loft conversions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:01298298928" class="num">01298 298928</a></li>
+          <li><a href="mailto:info@mcgconstruction.uk">info@mcgconstruction.uk</a></li>
+          <li>Hindlow Industrial Estate</li>
+          <li>Buxton, Derbyshire</li>
+          <li>Mon&ndash;Fri 08:00&ndash;17:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>&copy; 2026 MCG Construction Group Ltd &middot; Registered in England &amp; Wales no. 16073831 &middot; VAT 497 938 214</span>
+      <span>Registered office: Hindlow Industrial Estate, Buxton, Derbyshire &middot; Est. 2008</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/site.js" defer></script>
+</body>
+</html>

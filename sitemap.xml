@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://mcgconstruction.uk/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://mcgconstruction.uk/services/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcgconstruction.uk/materials/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcgconstruction.uk/estimate/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcgconstruction.uk/our-work/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcgconstruction.uk/surveys/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcgconstruction.uk/areas/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://mcgconstruction.uk/contact/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
